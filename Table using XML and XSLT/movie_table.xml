@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movie_table.xsl"?>
+<MovieList>
+  <movie>
+    <title>Titanic</title>
+    <director>James Cameron</director>
+    <genre>Drama, Romance</genre>
+    <releaseYear>1997</releaseYear>
+  </movie>
+  
+  <movie>
+    <title>The Shawshank Redemption</title>
+    <director>Frank Darabont</director>
+    <genre>Drama</genre>
+    <releaseYear>1994</releaseYear>
+  </movie>
+  
+  <movie>
+	<title>Baahubali: The Beginning</title>
+    <director>S.S. Rajamouli</director>
+    <genre>Action, Drama </genre>
+    <releaseYear>2015</releaseYear>
+  </movie>
+  
+  <movie>
+	<title>Baahubali 2: The Conclusion</title>
+    <director>S.S. Rajamouli</director>
+    <genre>Action, Drama</genre>
+    <releaseYear>2017</releaseYear>
+  </movie>
+
+  <movie>
+	<title>The Dark Knight</title>
+    <director>Christopher Nolan</director>
+    <genre>Action, Crime, Drama</genre>
+    <releaseYear>2008</releaseYear>
+  </movie>
+  <movie>
+	<title>12 Angry Men</title>
+    <director> Sidney Lumet</director>
+    <genre>Drama</genre>
+    <releaseYear>1957</releaseYear>
+  </movie>
+  
+  <movie>
+	<title>Fight Club</title>
+    <director>David Fincher</director>
+    <genre>Drama</genre>
+    <releaseYear>1999</releaseYear>
+  </movie>
+  
+  <movie>
+	<title>Forrest Gump</title>
+    <director>Robert Zemeckis</director>
+    <genre>Drama, Romance</genre>
+    <releaseYear>1994</releaseYear>
+  </movie>
+
+  <movie>
+	<title>Inception</title>
+    <director>Christopher Nolan</director>
+    <genre>Action, Adventure, Sci-Fi </genre>
+    <releaseYear>2010</releaseYear>
+  </movie>
+  
+  <movie>
+	<title>The Matrix</title>
+    <director>Lana Wachowski,Lilly Wachowski</director>
+    <genre>Action, Sci-Fi</genre>
+    <releaseYear>1999</releaseYear>
+  </movie>
+  
+</MovieList>
+
+  

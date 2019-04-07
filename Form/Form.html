@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <script src="Form_JS.js"></script>
+   
+ <h1><p><font> Sign Up </font></p></h1>
+
+<form align="center" name = "myForm" onsubmit="return formValidation()" >
+    <div id = "firstname_div">
+        First Name :<br>
+        <input type="text" name="first_name" id = "first_name"/>
+    </div>   
+    
+    <div id = 'lastname_div'> 
+        Last Name :<br>
+        <input type="text" name="last_name" id = "last_name"/>
+    </div>
+    
+
+    <div id="username_div">
+        User Name :<br>
+        <input type="text" name="user_name" id = "user_name" />
+    </div>
+    
+
+    <div> 
+        E-mail :<br>
+        <input type="text" name="email" id = "email-input" />
+         <p id = "p3"></p>
+    </div>
+    
+
+    <div>
+        Password : <br>
+        <input type="Password" name="password" id = "password-input" />
+        <p id = "p1"></p>
+    </div>
+    
+
+    <div>
+        Mobile:<br>
+        <input type="tel"  name="tel" id = "mobile-input" />
+         <p id = "p2"></p>
+    </div>
+    <br>
+    <br>
+
+
+        <legend>Please verify the following: </legend>
+        <label>e-Mail Alerts:
+            <input type="checkbox" value="checkbox1" name="checkgroup[]" />
+        </label>
+        <br>
+
+        <label>Agree to <a href="https://www.google.co.in/">Terms and Conditions </a> :
+            <input type="checkbox" value="checkbox2" name="checkgroup[]" />
+        </label>
+        <br>
+        <br>
+
+
+
+</form>
+<button onclick="formValidation()">Submit</button><br><br><br><br>
+<button onclick="show()">Show Current Date And Time</button><br><br><br><br>
+<p id="demo"></p>
+</body>
+
+</html>
